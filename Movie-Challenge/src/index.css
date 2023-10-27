@@ -1,0 +1,135 @@
+:root {
+  --theme-color: #364e89;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  /*font-family: 'Roboto Slab', serif;*/
+}
+
+.decorLine {
+  width: 100%;
+  height: 1em;
+  background-color: var(--theme-color);
+}
+
+/*      Menu      */
+.logo {
+  display: inline-block;
+  width: 12em;
+  height: 10em;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-gap: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.iconConteiner {
+  display: grid;
+  grid-template-columns: 3em 3em 3em 20em;
+  gap: 5px;
+  justify-items: center;
+  align-items: center;
+}
+.searchIcon {
+  width: 20em;
+  height: 2.5em;
+}
+
+/*      Movie Cards     */
+.conteinerMovies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 5px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+/* .cardMovie{
+  display: grid;
+  grid-template-rows: 1fr auto auto;
+}
+p.nameMovie{
+  vertical-align: top;
+} */
+.cardMovie{
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  
+}
+p.nameMovie {
+  overflow-wrap: break-word;
+}
+
+
+
+/* a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+.conteinerMovie{
+  background-color:  blue;
+} */
