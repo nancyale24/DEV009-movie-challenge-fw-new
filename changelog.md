@@ -1,13 +1,16 @@
-## <1.1.0> - <date>
+## <1.1.0> - <2021-10-31>
 
 ### Sprint learnings
 
 + Aprendí un poco más de react y sus componentes
++ Aprendí a hacer peticiones con postman
++ Reforce CSS
 
 
 ### Added
 
 + Logré que se visualizarán las peliculas con su títulos
++ Mostrar mi app en base al prototipo de alta 
 
 
 
